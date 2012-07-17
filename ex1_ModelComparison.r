@@ -43,7 +43,8 @@ models = list(list(dimTheta=c(1,1),dimX=c(1,1)),
 # 			list(dimTheta=c(5,1),dimX=c(6,0)))
 
 ### values or regularization parameters
-fixlambda = c(1,3,5,6,9,11,13,13,15,15,15,17)	## regularization hyperparameter. Higher dimensional models usually need larger lambda.
+# fixlambda = c(1,3,5,6,9,11,13,13,15,15,15,17)	## regularization hyperparameter. Higher dimensional models usually need larger lambda.
+fixlambda = c(1,1,3,3,3,3,3,5,5,5,5,5)
 
 #######################################################################
 ### READ in data and determine matrix R indicating non-omitted
