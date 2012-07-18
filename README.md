@@ -7,7 +7,7 @@ would call Joint Maximum Likelihood Estimation (JMLE) or what machine-learning s
 might call collaborative filtering using regularized logistic regression.
 
 The required inputs for starting are a response matrix, which should be delimited, binary-valued 
-(dichotomous), and omitted or missing data coded as NA or -9 (or change the code to use your own).
+(dichotomous), with omitted or missing data coded as NA or -9 (or change the code to use your own).
 Headers and row names are optional, though you will have to deal with them in the reading-in part
 of the code.
 
