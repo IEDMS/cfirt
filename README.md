@@ -15,21 +15,19 @@ A synthetic data example file is included: cfirtdata.txt
 
 The current list of files included in this repo is:
 README.md
-cfirt.r	:	a source file for all of the other files
-cfirtdata.txt	: 	sample data file (synthetic)
-costgrad.r	:	the core vectorized functions for computing the loglikelihood
+cfirt.r			a source file for all of the other files
+cfirtdata.txt	sample data file (synthetic)
+costgrad.r		the core vectorized functions for computing the loglikelihood
+makeICCs.r		for plotting item characteristic curves with data in unidimensional IRT
+plotCFmodels.r	for plotting the accuracy/RMSE performance of multiple CF models
+rescale.r		for rescaling parameters to known/assumed ability distribution (post-facto)
+errorbars.r		for error bars used in makeICCs.r
+basicfuncs.r	basic IRT sigmoid/logistic functions
 
-makeICCs.r	:	for plotting item characteristic curves with data in unidimensional IRT
-SAMPLEcfirtICC.pdf	:	sample output from makeICCs.r	
-plotCFmodels.r	:	for plotting the accuracy/RMSE performance of multiple CF models
-SAMPLEmodelcompare.pdf	:	sample output from plotCFmodels.r	
-rescale.r	:	for rescaling parameters to known/assumed ability distribution (post-facto)
-SAMPLEmodelcompare.txt	: sample output from ex1\_ModelComparison.r
-errorbars.r
-usingcfirtfor2PL.r
-UsingCfirtForModelComparison.r
-ex2\_ModelComparison.r
-basicfunctions.r
-ex2\_2PL.r
+ex1\_ModelComparison.r		example of how to use cfirt for model-scan comparison
+ex2\_2PL.r					example of how to use cfirt to do 2PL IRT
 
+SAMPLEmodelcompare.txt		sample output from ex1\_ModelComparison.r
+SAMPLEmodelcompare.pdf		sample output from plotCFmodels.r
+SAMPLEcfirtICC.pdf			sample output from makeICCs.r	
 
