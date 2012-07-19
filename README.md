@@ -15,12 +15,11 @@ A synthetic data example file is included: cfirtdata.txt
 
 The current list of files included in this repo is:
 
-README.md
-cfirt.r			a source file for all of the other files
-cfirtdata.txt	sample data file (synthetic)
-costgrad.r		the core vectorized functions for computing the loglikelihood
-
-makeICCs.r		for plotting item characteristic curves with data in unidimensional IRT
+* README.md
+* cfirt.r			a source file for all of the other files
+* cfirtdata.txt	sample data file (synthetic)
+* costgrad.r		the core vectorized functions for computing the loglikelihood
+* makeICCs.r		for plotting item characteristic curves with data in unidimensional IRT
 
 plotCFmodels.r	for plotting the accuracy/RMSE performance of multiple CF models
 
