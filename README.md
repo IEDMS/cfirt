@@ -14,8 +14,8 @@ of the code.
 A synthetic data example file is included: cfirtdata.txt
 
 The current list of files included in this repo is:
-README.md
 
+README.md
 cfirt.r			a source file for all of the other files
 
 cfirtdata.txt	sample data file (synthetic)
