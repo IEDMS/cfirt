@@ -31,3 +31,9 @@ The current list of files included in this repo is:
 * SAMPLEcfirtICC.pdf : sample output from makeICCs.r	
 
 
+cite
+====
+
+Bergner, Y., Droschler, S., Kortemeyer, G., Rayyan, R., Seaton, D., & Pritchard, D. E., 
+"Model-Based Collaborative Filtering Analysis of Student Response Data: Machine-Learning Item Response Theory", 
+in Proceedings of the 5th International Conference on Educational Data Mining (2012), Chania, Crete. pp. 95-102
