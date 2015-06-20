@@ -19,7 +19,7 @@
 
 makeICCs <- function(U,Skills,Diffs,Discrims=rep(1,length(Diffs)),bins=seq(-3,3,0.2),prefix="ICC",histo=FALSE) {
 
-source("errorbars.R")
+source("errorbars.r")
 
 numStudents = length(Skills)
 numItems = length(Diffs)
